@@ -1,5 +1,5 @@
 /**
- * BOAVIE — single source of truth for brand + business information.
+ * BOAIVE PLAY — single source of truth for brand + business information.
  *
  * Everything a client would want changed lives here. No component hardcodes
  * a business detail; they all read from this object.
@@ -7,14 +7,14 @@
 
 export const siteConfig = {
   brand: {
-    name: "Boavie",
-    nameLines: ["Boa", "vie"] as const,
-    shortName: "BVE",
+    name: "Boaive Play",
+    nameLines: ["Boaive", "Play"] as const,
+    shortName: "BVP",
     tagline: "Where Reality Meets Play.",
     description:
       "Chennai's next-generation gaming and entertainment arena. Free-roam VR, professional sim racing, arcade, esports and escape rooms under one roof.",
     established: "2021",
-    legalName: "Boavie Entertainment LLP",
+    legalName: "Boaive Play Entertainment LLP",
   },
 
   contact: {
@@ -27,7 +27,7 @@ export const siteConfig = {
   },
 
   location: {
-    venueName: "Boavie",
+    venueName: "Boaive Play",
     line1: "123 Example Road, Thousand Lights",
     line2: "Chennai, Tamil Nadu 600006",
     city: "Chennai",
@@ -58,7 +58,7 @@ export const siteConfig = {
   },
 
   social: [
-    { label: "Instagram", handle: "@boavie", href: "https://instagram.com" },
+    { label: "Instagram", handle: "@boaive", href: "https://instagram.com" },
     { label: "YouTube", handle: "boavie", href: "https://youtube.com" },
     { label: "Facebook", handle: "boavie", href: "https://facebook.com" },
   ],
@@ -86,7 +86,7 @@ export const siteConfig = {
     ],
     image: {
       src: "https://images.unsplash.com/photo-1633545495735-25df17fb9f31",
-      alt: "The Boavie esports floor at night, rows of gaming stations lit in violet and blue",
+      alt: "The Boaive Play esports floor at night, rows of gaming stations lit in violet and blue",
     },
   },
 
@@ -106,7 +106,7 @@ export const siteConfig = {
     eyebrow: "About the arena",
     title: "Built for people who take play seriously.",
     body: [
-      "Boavie opened in 2021 with one rule: no compromises on the hardware. Every rig, headset and cabinet on our floor is the same equipment competitive players train on — because a great night out should feel like the real thing.",
+      "Boaive Play opened in 2021 with one rule: no compromises on the hardware. Every rig, headset and cabinet on our floor is the same equipment competitive players train on — because a great night out should feel like the real thing.",
       "Twelve thousand square feet across five zones, a full-service cafe, and a crew that actually plays. Come for an hour, stay for the tournament.",
     ],
     facts: [
@@ -130,7 +130,7 @@ export const siteConfig = {
   },
 
   meta: {
-    url: "https://boavie.com",
+    url: "https://boaive.com",
     ogImage: "https://images.unsplash.com/photo-1633545495735-25df17fb9f31?w=1200&q=70",
   },
 } as const;

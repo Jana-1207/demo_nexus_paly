@@ -23,7 +23,7 @@ export const experiences: Experience[] = [
     players: "1 – 8 players",
     priceFrom: 499,
     image: "https://images.unsplash.com/photo-1640823127518-65e1ad563576",
-    alt: "Two players in free-roam VR headsets with backpack computers inside the Boavie VR arena",
+    alt: "Two players in free-roam VR headsets with backpack computers inside the Boaive Play VR arena",
     highlights: ["Untethered free-roam", "Full body tracking", "12 worlds on rotation"],
   },
   {

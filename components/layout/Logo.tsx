@@ -26,7 +26,7 @@ export function Logo({
       {!compact && (
         <span className="t-label whitespace-nowrap text-[0.74rem] leading-none tracking-[0.16em] sm:text-[0.8rem] sm:tracking-[0.2em]">
           {first.toUpperCase()}
-          <span className="text-accent">{second.toUpperCase()}</span>
+          <span className="text-accent"> {second.toUpperCase()}</span>
         </span>
       )}
     </span>
