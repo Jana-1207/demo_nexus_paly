@@ -7,7 +7,7 @@ import { Reveal } from "@/components/ui/Reveal";
 /** A quiet band of numbers between two louder sections. Type does the work. */
 export function Stats() {
   return (
-    <section className="relative border-y border-line" aria-label="Nexus Play in numbers">
+    <section className="relative border-y border-line" aria-label="Boavie in numbers">
       <div className="shell py-14 md:py-20">
         <Reveal
           as="dl"

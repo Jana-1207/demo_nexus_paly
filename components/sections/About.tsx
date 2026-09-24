@@ -10,7 +10,7 @@ import { photo } from "@/lib/utils";
 
 const ABOUT_IMAGE = {
   src: "https://images.unsplash.com/photo-1633545491399-54a16aa6a871",
-  alt: "The Nexus Play esports floor lit in magenta, stations lined up along the wall",
+  alt: "The Boavie esports floor lit in magenta, stations lined up along the wall",
 };
 
 export function About() {

@@ -1,5 +1,5 @@
 /**
- * NEXUS PLAY — single source of truth for brand + business information.
+ * BOAVIE — single source of truth for brand + business information.
  *
  * Everything a client would want changed lives here. No component hardcodes
  * a business detail; they all read from this object.
@@ -7,27 +7,27 @@
 
 export const siteConfig = {
   brand: {
-    name: "Nexus Play",
-    nameLines: ["Nexus", "Play"] as const,
-    shortName: "NXP",
+    name: "Boavie",
+    nameLines: ["Boa", "vie"] as const,
+    shortName: "BVE",
     tagline: "Where Reality Meets Play.",
     description:
       "Chennai's next-generation gaming and entertainment arena. Free-roam VR, professional sim racing, arcade, esports and escape rooms under one roof.",
     established: "2021",
-    legalName: "Nexus Play Entertainment LLP",
+    legalName: "Boavie Entertainment LLP",
   },
 
   contact: {
-    phoneDisplay: "+91 98400 22110",
-    phoneHref: "tel:+919840022110",
-    whatsappDisplay: "+91 98400 22110",
-    whatsappHref: "https://wa.me/919840022110",
-    email: "hello@nexusplay.in",
-    emailHref: "mailto:hello@nexusplay.in",
+    phoneDisplay: "+91 81108 23730",
+    phoneHref: "tel:+81108 23730",
+    whatsappDisplay: "+91 81108 23730",
+    whatsappHref: "https://wa.me/81108 23730",
+    email: "boaive.tech@gmail.com",
+    emailHref: "mailto:boaive.tech@gmail.com",
   },
 
   location: {
-    venueName: "Nexus Play Arena",
+    venueName: "Boavie",
     line1: "123 Example Road, Thousand Lights",
     line2: "Chennai, Tamil Nadu 600006",
     city: "Chennai",
@@ -58,9 +58,9 @@ export const siteConfig = {
   },
 
   social: [
-    { label: "Instagram", handle: "@nexusplay", href: "https://instagram.com" },
-    { label: "YouTube", handle: "Nexus Play", href: "https://youtube.com" },
-    { label: "Facebook", handle: "nexusplayarena", href: "https://facebook.com" },
+    { label: "Instagram", handle: "@boavie", href: "https://instagram.com" },
+    { label: "YouTube", handle: "boavie", href: "https://youtube.com" },
+    { label: "Facebook", handle: "boavie", href: "https://facebook.com" },
   ],
 
   nav: [
@@ -86,7 +86,7 @@ export const siteConfig = {
     ],
     image: {
       src: "https://images.unsplash.com/photo-1633545495735-25df17fb9f31",
-      alt: "The Nexus Play esports floor at night, rows of gaming stations lit in violet and blue",
+      alt: "The Boavie esports floor at night, rows of gaming stations lit in violet and blue",
     },
   },
 
@@ -106,7 +106,7 @@ export const siteConfig = {
     eyebrow: "About the arena",
     title: "Built for people who take play seriously.",
     body: [
-      "Nexus Play opened in 2021 with one rule: no compromises on the hardware. Every rig, headset and cabinet on our floor is the same equipment competitive players train on — because a great night out should feel like the real thing.",
+      "Boavie opened in 2021 with one rule: no compromises on the hardware. Every rig, headset and cabinet on our floor is the same equipment competitive players train on — because a great night out should feel like the real thing.",
       "Twelve thousand square feet across five zones, a full-service cafe, and a crew that actually plays. Come for an hour, stay for the tournament.",
     ],
     facts: [
@@ -130,7 +130,7 @@ export const siteConfig = {
   },
 
   meta: {
-    url: "https://nexusplay.in",
+    url: "https://boavie.com",
     ogImage: "https://images.unsplash.com/photo-1633545495735-25df17fb9f31?w=1200&q=70",
   },
 } as const;
